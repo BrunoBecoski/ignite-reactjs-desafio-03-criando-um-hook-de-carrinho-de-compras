@@ -9,13 +9,13 @@ import {
 // import { formatPrice } from '../../util/format';
 import { Container, ProductTable, Total } from './styles';
 
-interface Product {
-  id: number;
-  title: string;
-  price: number;
-  image: string;
-  amount: number;
-}
+// interface Product {
+//   id: number;
+//   title: string;
+//   price: number;
+//   image: string;
+//   amount: number;
+// }
 
 const Cart = (): JSX.Element => {
   // const { cart, removeProduct, updateProductAmount } = useCart();
@@ -30,17 +30,17 @@ const Cart = (): JSX.Element => {
   //     }, 0)
   //   )
 
-  function handleProductIncrement(product: Product) {
-    // TODO
-  }
+  // function handleProductIncrement(product: Product) {
+  //   // TODO
+  // }
 
-  function handleProductDecrement(product: Product) {
-    // TODO
-  }
+  // function handleProductDecrement(product: Product) {
+  //   // TODO
+  // }
 
-  function handleRemoveProduct(productId: number) {
-    // TODO
-  }
+  // function handleRemoveProduct(productId: number) {
+  //   // TODO
+  // }
 
   return (
     <Container>
